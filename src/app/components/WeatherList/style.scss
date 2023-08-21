@@ -1,0 +1,21 @@
+.location-weather-button {
+    font-weight: 600;
+
+    .location-weather-item {
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+
+        img {
+            width: 42px;
+            height: 42px;
+        }
+
+        span {
+            flex: 1;
+            align-self: flex-start;
+            text-align: left;
+        }
+    }
+}
